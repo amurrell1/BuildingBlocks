@@ -4,13 +4,6 @@
   "policyType": "Custom",
   "mode": "Indexed",
   "description": "This policy automatically deploys diagnostic settings to Apply Diagnostic Settings for Microsoft.Web/serverFarms (app) to a Log Analytics Workspace.",
-  "metadata": {
-   "category": "Custom",
-   "createdBy": "bd71581c-f490-4c4d-9fa6-c4b9d6f0e325",
-   "createdOn": "2022-03-04T14:55:38.4536475Z",
-   "updatedBy": null,
-   "updatedOn": null
-  },
   "parameters": {
    "profileName": {
     "type": "String",
@@ -157,8 +150,5 @@
     }
    }
   }
- },
- "id": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/providers/Microsoft.Authorization/policyDefinitions/25893a37-dd4c-4552-8e3b-7f619144411e",
- "type": "Microsoft.Authorization/policyDefinitions",
- "name": "25893a37-dd4c-4552-8e3b-7f619144411e"
+ }
 }

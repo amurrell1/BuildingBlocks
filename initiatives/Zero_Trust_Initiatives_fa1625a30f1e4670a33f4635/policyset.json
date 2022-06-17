@@ -6,13 +6,13 @@
    "category": "Governance",
    "version": "1.0",
    "parameterScopes": {
-    "logAnalytics": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/resourcegroups/adfs",
-    "privateEndpointSubnetId": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/resourcegroups/adfs/providers/microsoft.network/virtualnetworks/linux-vnet",
+    "logAnalytics": "/subscriptions/[subscrtiptionid]/resourcegroups/[resourcegroup]",
+    "privateEndpointSubnetId": "/subscriptions/[subscrtiptionid]/resourcegroups/[resourcegroup]/providers/microsoft.network/virtualnetworks/[vnetname]",
     "nsgRegion": "/providers/Microsoft.Management/managementGroups/Production",
-    "networkWatcherRG": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad",
+    "networkWatcherRG": "/subscriptions/[subscrtiptionid]",
     "workspaceRegion": "/providers/Microsoft.Management/managementGroups/Production"
    },
-   "createdBy": "bd71581c-f490-4c4d-9fa6-c4b9d6f0e325",
+   "createdBy": "[]",
    "createdOn": "2022-06-17T17:53:46.2424943Z",
    "updatedBy": null,
    "updatedOn": null
@@ -72,7 +72,7 @@
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6f8f98a4-f108-47cb-8e98-91a0d85cd474",
     "parameters": {
      "logAnalytics": {
-      "value": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/resourcegroups/adfs/providers/microsoft.operationalinsights/workspaces/demosentinelandre"
+      "value": "/subscriptions/[subscriptionid]/resourcegroups/[rgname]/providers/microsoft.operationalinsights/workspaces/[lawname]"
      }
     },
     "groupNames": []
@@ -88,7 +88,7 @@
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9f766f00-8d11-464e-80e1-4091d7874074",
     "parameters": {
      "privateEndpointSubnetId": {
-      "value": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/resourcegroups/adfs/providers/microsoft.network/virtualnetworks/linux-vnet/subnets/default"
+      "value": "/subscriptions/[subscriptionid]/resourcegroups/[resourcegroup]/providers/microsoft.network/virtualnetworks/[vnetname]/subnets/default"
      }
     },
     "groupNames": []
@@ -116,7 +116,7 @@
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0868462e-646c-4fe3-9ced-a733534b6a2c",
     "parameters": {
      "logAnalytics": {
-      "value": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/resourcegroups/adfs/providers/microsoft.operationalinsights/workspaces/demosentinelandre"
+      "value": "/subscriptions/[subscriptionid]/resourcegroups/[resourcegroup]/providers/microsoft.operationalinsights/workspaces/[lawname]"
      }
     },
     "groupNames": []
@@ -180,7 +180,7 @@
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/3c1b3629-c8f8-4bf6-862c-037cb9094038",
     "parameters": {
      "logAnalytics": {
-      "value": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/resourcegroups/adfs/providers/microsoft.operationalinsights/workspaces/demosentinelandre"
+      "value": "/subscriptions/[subscriptionid]/resourcegroups/[resourcegroup]/providers/microsoft.operationalinsights/workspaces/[lawname]"
      }
     },
     "groupNames": []
@@ -232,7 +232,7 @@
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5ee9e9ed-0b42-41b7-8c9c-3cfb2fbe2069",
     "parameters": {
      "logAnalytics": {
-      "value": "/subscriptions/adeb6b55-d404-465f-884c-a232d0135aad/resourcegroups/adfs/providers/microsoft.operationalinsights/workspaces/demosentinelandre"
+      "value": "/subscriptions/[subscriptionid]/resourcegroups/[resourcegroup]/providers/microsoft.operationalinsights/workspaces/[lawname]"
      }
     },
     "groupNames": []
@@ -437,7 +437,7 @@
       "value": "/"
      },
      "networkWatcherRG": {
-      "value": "adfs"
+      "value": "[rgname]"
      },
      "networkWatcherName": {
       "value": "/"
@@ -489,7 +489,7 @@
       "value": "/"
      },
      "networkWatcherRG": {
-      "value": "adfs"
+      "value": "[rgname]"
      },
      "networkWatcherName": {
       "value": "/"
